@@ -1,0 +1,32 @@
+
+*   {
+        font-family: calibri;
+    }
+  
+#header{
+        background-color: blue;
+        background-size:cover;
+    }
+
+li{
+        list-style-type:none;
+        font-size: large;
+        font-weight: 200;
+    }
+li{
+        display: inline;
+        margin-left: 190px;
+        background-color: blue;
+        color: white;
+
+}
+ul li {
+    background-color: blue;
+}
+
+#home{
+    background-color: pink;
+    color: darkblue;
+    text-align: center;
+    background-size: 0vmax;
+}
