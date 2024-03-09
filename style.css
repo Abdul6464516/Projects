@@ -3,7 +3,7 @@
     }
 
 body{
-    background-color: rgb(140, 184, 184);
+    background-color: rgb(246, 250, 250);
 }
   
 #header{
@@ -23,7 +23,13 @@ li{
         color: white;
 
     }
-
+#welcome{
+        margin-left: 300px;
+}
+#concate{
+    display: inline;
+    color: blue;
+}
 ul li {
     background-color: blue;
     size: 10px;
@@ -48,9 +54,12 @@ ul li {
 
 #tbl{
     border: 2px;
-    table-layout: fixed;
     tab-size: 0vmax;
-    width: 100px;
+    width: 700px;
+}
+table th{
+    color: white;
+    background-color: black;
 }
 #logo{
     color: white;
