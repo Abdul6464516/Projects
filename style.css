@@ -23,11 +23,7 @@ li{
         color: white;
 
     }
-.skills{
-    text-align: left;
-    background-color: none;
-    
-}
+
 #welcome{
         margin-left: 300px;
 }
@@ -68,4 +64,79 @@ table th{
 }
 #logo{
     color: white;
+}
+
+.fullForm{
+    background-color: rgb(141, 189, 141);
+    width: 350px;
+    height: 560px;
+    margin-left: 400px;
+    border: solid green 1px;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+#fcbook{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#google{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#apple{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#github{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#para{
+    display: inline-block;
+}
+
+.header{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color: rgb(5, 94, 5);
+    margin-top: 10px;
+}
+.frmbody{
+    text-align: center;
+    margin-top: 30px;
+    
+   
+}
+
+.frmbody input{
+    border-radius: 17px;
+    width: 200px;
+    height: 29px;
+    border: 1px green;
+    margin-left: 0px;
+
+}
+
+button{
+    background-color: rgb(5, 94, 5);
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 17px;
+    margin-top: 10px;
+
+}
+#checkbox{
+    display: inline-block;
+    text-align: left;
 }
