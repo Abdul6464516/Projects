@@ -1,32 +1,57 @@
-
-*   {
+*{
         font-family: calibri;
     }
+
+body{
+    background-color: rgb(140, 184, 184);
+}
   
 #header{
         background-color: blue;
         background-size:cover;
+        padding: 5px;
     }
 
 li{
         list-style-type:none;
         font-size: large;
-        font-weight: 200;
-    }
-li{
+        font-weight: bold;
         display: inline;
         margin-left: 190px;
+        margin-bottom: 30px;
         background-color: blue;
         color: white;
 
-}
+    }
+
 ul li {
     background-color: blue;
+    size: 10px;
 }
 
-#home{
+/* #home{
     background-color: pink;
     color: darkblue;
     text-align: center;
     background-size: 0vmax;
+} */
+
+
+#myImg{
+    margin-right: 10px;
+   margin-bottom: 100px;
+   margin-left: 100px;
+   margin-top: 10px;
+    float: right;
+    border: 2px solid black;
+}
+
+#tbl{
+    border: 2px;
+    table-layout: fixed;
+    tab-size: 0vmax;
+    width: 100px;
+}
+#logo{
+    color: white;
 }
