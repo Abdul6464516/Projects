@@ -23,6 +23,11 @@ li{
         color: white;
 
     }
+.skills{
+    text-align: left;
+    background-color: none;
+    
+}
 #welcome{
         margin-left: 300px;
 }
@@ -53,7 +58,7 @@ ul li {
 }
 
 #tbl{
-    border: 2px;
+    
     tab-size: 0vmax;
     width: 700px;
 }
