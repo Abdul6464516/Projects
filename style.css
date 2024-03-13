@@ -140,3 +140,7 @@ button{
     display: inline-block;
     text-align: left;
 }
+
+div#header li a:hover {
+    font-weight: bold;
+}
