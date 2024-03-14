@@ -59,10 +59,11 @@ footer{
     border: 2px solid black;
 }
 
-#tbl{
+table{
     
     tab-size: 0vmax;
     width: 700px;
+    border: 3px;
 }
 table th{
     color: white;
