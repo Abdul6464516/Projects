@@ -1,0 +1,146 @@
+*{
+        font-family: calibri;
+    }
+
+body{
+    background-color: rgb(246, 250, 250);
+}
+  
+#header{
+        background-color: blue;
+        background-size:cover;
+        padding: 5px;
+    }
+
+li{
+        list-style-type:none;
+        font-size: large;
+        font-weight: bold;
+        display: inline;
+        margin-left: 190px;
+        margin-bottom: 30px;
+        background-color: blue;
+        color: white;
+
+    }
+
+#welcome{
+        margin-left: 300px;
+}
+#concate{
+    display: inline;
+    color: blue;
+}
+ul li {
+    background-color: blue;
+    size: 10px;
+}
+
+/* #home{
+    background-color: pink;
+    color: darkblue;
+    text-align: center;
+    background-size: 0vmax;
+} */
+
+
+#myImg{
+    margin-right: 10px;
+   margin-bottom: 100px;
+   margin-left: 100px;
+   margin-top: 10px;
+    float: right;
+    border: 2px solid black;
+}
+
+#tbl{
+    
+    tab-size: 0vmax;
+    width: 700px;
+}
+table th{
+    color: white;
+    background-color: black;
+}
+#logo{
+    color: white;
+}
+
+.fullForm{
+    background-color: rgb(141, 189, 141);
+    width: 350px;
+    height: 560px;
+    margin-left: 400px;
+    border: solid green 1px;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+#fcbook{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#google{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#apple{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#github{
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 10px;
+}
+#para{
+    display: inline-block;
+}
+
+.header{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color: rgb(5, 94, 5);
+    margin-top: 10px;
+}
+.frmbody{
+    text-align: center;
+    margin-top: 30px;
+    
+   
+}
+
+.frmbody input{
+    border-radius: 17px;
+    width: 200px;
+    height: 29px;
+    border: 1px green;
+    margin-left: 0px;
+
+}
+
+button{
+    background-color: rgb(5, 94, 5);
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 17px;
+    margin-top: 10px;
+
+}
+#checkbox{
+    display: inline-block;
+    text-align: left;
+}
+
+div#header li a:hover {
+    font-weight: bold;
+}
