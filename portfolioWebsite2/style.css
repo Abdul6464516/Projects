@@ -1,54 +1,60 @@
+
 *{
-        font-family: calibri;
-    }
-
-body{
-    background-color: rgb(246, 250, 250);
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
 }
-  
-#header{
-        background-color: blue;
-        background-size:cover;
-        padding: 5px;
-    }
+header{
+    background-color:blue;
+    background-size:cover;
+    padding: 5px;
+    height: 110px;
+    color:white;
+}
 
-li{
-        list-style-type:none;
-        font-size: large;
-        font-weight: bold;
-        display: inline;
-        margin-left: 190px;
-        margin-bottom: 30px;
-        background-color: blue;
-        color: white;
-
-    }
-
+header ul li{
+    list-style-type:none;
+    font-size: large;
+    font-weight: bold;
+    display: inline;
+    margin-left: 190px;
+    color: rgb(230, 155, 155);
+    margin-top: 50px;
+    /* margin-bottom: 10px; */
+    /* background-color: blue; */
+    
+   
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+section{
+    padding: 20px;
+    margin-left: 10px;
+}
+footer{
+    background-color: blue;
+    opacity: 30px;
+    text-align: center;
+    height: 60px;
+    color: white;
+    margin-bottom: auto;
+}
 #welcome{
-        margin-left: 300px;
+    margin-left: 300px;
 }
 #concate{
     display: inline;
     color: blue;
-}
-ul li {
-    background-color: blue;
-    size: 10px;
-}
-
-/* #home{
-    background-color: pink;
-    color: darkblue;
     text-align: center;
-    background-size: 0vmax;
-} */
-
+}
 
 #myImg{
     margin-right: 10px;
-   margin-bottom: 100px;
-   margin-left: 100px;
-   margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
     float: right;
     border: 2px solid black;
 }
@@ -64,6 +70,7 @@ table th{
 }
 #logo{
     color: white;
+    padding: 10px;
 }
 
 .fullForm{
@@ -80,6 +87,7 @@ table th{
     height: 20px;
     display: inline;
     border-radius: 10px;
+    
 }
 #google{
     width: 20px;
@@ -141,6 +149,3 @@ button{
     text-align: left;
 }
 
-div#header li a:hover {
-    font-weight: bold;
-}
